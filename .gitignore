@@ -1,0 +1,19 @@
+# Environment variables
+.env
+.env.local
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Runtime outputs & downloads
+downloads/*
+!downloads/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
